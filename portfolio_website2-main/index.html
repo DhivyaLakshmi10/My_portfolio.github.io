@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dhivya's Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Dhivya Lakshmi</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Analyst & Dev</p>
+            <img src="img/me.jpeg" alt="a picture of me smiling" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>STUDENT</h3>
+                    <p>I am currently a student at PSG Institute of Technology, Coimbatore pursuing Integrated BSc MSc Software Systems.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>DATA ANALYST INTERN</h3>
+                    <p>Completed a six-month internship at Mahindra Holidays and Resorts Limited (MHRIL), Chennai, as a Data Analyst Intern, worked on two key projects.</p>
+                </div> <!-- / service -->
+                <!-- / service -->
+                <div class="service">
+                    <h3>ANALYTICS+DEVELOPMENT</h3>
+                    <p>My major areas of interest are: Data Analysis, Data Visualization, Frontend Development. Always striving to learn more.</p>
+                </div>
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Analyst & developer</p>
+           
+           <div class="about-me__body">
+               <p>Currently a fifth-year student at PSG College of Technology, pursuing an integrated BSc-MSc degree in Software Systems. Recently completed a six-month internship at Mahindra Holidays as a Data Analyst intern, where I gained valuable experience in data analysis and visualization. In addition to my internship, I have worked on numerous projects across various domains, including data analysis, software development, and app development. My proficiency spans multiple programming languages, and I am known for being a results-driven individual with a strong commitment to excellence. Additionally, employed as a part-time coding instructor.
+
+               </p>
+           </div>
+           
+           <img src="img/gina-mangiante-ZHkIJli_8_g-unsplash.jpg" alt="Jane leaning against a bus" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/n1.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="portfoilo-item.html" class="portfolio__item">
+                    <img src="img/n2.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="portfolio-item4.html" class="portfolio__item">
+                    <img src="img/n3.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="portfolio-item3.html" class="portfolio__item">
+                    <img src="img/n4.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 05 -->
+                <a href="portfolio-item2.html" class="portfolio__item">
+                    <img src="img/n5.png" alt="" class="portfolio__img">
+                </a>
+                
+        </section>
+        
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:lakshmi2003dhivya@gmail.com" class="footer__link">lakshmi2003dhivya@gmail.com</a>
+            <ul class="social-list">
+               <li class="social-list__item">
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/DhivyaLakshmi10">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/dhivya-lakshmi-s-215a8122b/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                
+            </ul>
+        </footer>
+        
+        <script src="index.js"></script>
+        
+    </body>
+</html>
